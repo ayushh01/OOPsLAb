@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int main()
 {
@@ -22,7 +22,7 @@ if(c>=1)
 {
 cout<<"1";
 }
-else;
+else
 {cout<<"0";
 }
 }
