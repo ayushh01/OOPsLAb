@@ -1,6 +1,6 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
-int main()
+char main()
 {
 	int n;
 	cout<<"enter the value\n";
@@ -17,7 +17,7 @@ int main()
 	         else;
 	        cout<<n;
 	
-//	cout<<n;          
-	return 0;
+         
+	return 'a';
 	
 }
