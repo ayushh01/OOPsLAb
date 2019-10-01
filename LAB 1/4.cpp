@@ -1,9 +1,9 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int factorial(int n)
 {
-int i,fact=1;
-for(i=1;i<=n;i++)
+int i,fact=n;
+for(i=2;i<n;i++)
 {
     fact=fact*i;
 }
