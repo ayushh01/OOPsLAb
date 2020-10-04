@@ -1,15 +1,15 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
-int main()
-{
-	int n,i=0;
-	cout<<"enter value\n";
-	cin>>n;
-	while(n!=0)
-	{
-		 n%10;
-		 i++;
-		 n=n/10;
-	 } 
-	 	 cout<<i;
+typedef long long ll;
+
+int main() {
+	ll n , i = 0;
+	cout << "Enter a Value" << endl;
+	cin >> n;
+	while(n) {
+		 i += 1;
+		 n /= 10;
+	} 
+	cout << i ;
+	return 0;
 }
